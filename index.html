@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/015c1c131f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav><img src="images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Projects</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class=" fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class=" fas fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Aspiring Software Developer</p>
+                    <h1>Hi... I'm<span>Prakash Karthik.S</span></h1>
+                </div>
+            </div>
+        </div>
+        <!---------about---------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/user.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <br/>
+                        <p>I'm Prakash Karthik S, an Electrical and Electronics Engineering (EEE) 
+                            Student at Dr.Mahalingam College of Engineering and Technology, graduating in 2025.
+                            Even though my background is in EEE, I'm passionate about software development and 
+                            transitioning into the IT sector.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick ="opentab('skills')">Technical Skills</p>
+                            <p class="tab-links" onclick ="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Java</span><br>Intellij IDEA</li>
+                                <li><span>SQL</span><br>MySQL</li>
+                                <li><span>HTML</span><br>VS Code</li>
+                                <li><span>CSS</span><br>VS Code</li>
+                                <li><span>JavaScript</span><br>VS Code</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021-2025</span><br>BE at Dr.Mahalingam College of Engineering and Technology, Pollachi.</li>
+                                <li><span>2020-2021</span><br>HSC from R G Matric Hr Sec School, Manoorpalayam.</li>
+                                <li><span>2018-2019</span><br>SSLC from Government Hr Sec School, Poolavadi</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------------ projects--------------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Projects</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-brands fa-facebook"></i>
+                        <h2>Facebook Login page Clone</h2>
+                        <p>The Facebook login page clone is a replica of Facebook's login screen,
+                             created using HTML, CSS and JavaScript. It looks like the real 
+                             login age but doesn't have actual login functionality.</p>
+                             <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <h2>Myntra Clone</h2>
+                        <p>The Myntra Clone is a replica of Myntra's homepage, designed using
+                             HTML, CSS and JavaScript. It mimics the layout, navigation and styling,
+                              including product sections, banners and a responsive design for a real website-like experience.</p>
+                             <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-handshake"></i>
+                        <h2>Rock-Paper-Scissor</h2>
+                        <p>A simple game created using HTML, CSS, JavaScript.This classic game allows users to pick their choice
+                             and instantly see the outcome.The design is clean and minimal, providing an easy-to-use.</p>
+                             <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-circle-xmark"></i>
+                        <h2>Tic-Tak-Toe</h2>
+                        <p>A simple console-based Tic-Tac-Toe game in Java for two players. Players take turns entering
+                             their moves on a 3x3 board, and the first to get three in a row.</p>
+                             <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--------------------portfolio----------------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Activity</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                            <h2>Co-Curricular</h2>
+                            <p>Paper presentation - Bannari Amman College<br>Paper presentation - Karunya Institute<br>
+                            Paper presentation - PA College<br>Workshop - Bannari Amman College<br>Conference - Sri Sai Ranganathan College</p>
+                           <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h2>Extra-Curricular</h2>
+                            <p>IEEE Member - Dr.MCET<br>Direct and Hosted two times College cultural enents - Dr.MCET<br>
+                            Short film event - Both Inter and Intra College<br>Best Mentee of the year - III year(2024)<br></p>
+                           <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.png">
+                        <div class="layer">
+                            <h2>Hobbies</h2>
+                            <p>Watching Movies<br>Writing Scripts and Stories<br>
+                            Travelling and Exploring<br>Playing Cricket<br>Problem solving</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <!--------------------contact---------------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> karthiselva8165@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>9360673620</p>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/itzzz_prakash_/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/prakash1234/"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/Prakash8165"><i class="fab fa-github"></i></a>
+                        </div>
+                        <a href="images/Prakash S.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <input name="Message" row="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @ Prakash <i class="fa-solid fa-heart"></i>.</p>
+            </div>
+        </div>
+
+        <script>
+            var tablinks=document.getElementsByClassName("tab-links");
+            var tabcontents=document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemeu =document.getElementById("sidemenu");
+            function openmenu(){
+                sidemeu.style.right="0";
+            }
+            function closemenu(){
+                sidemeu.style.right="-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxdZ13CCqHNTvlCveQHFtLR1JI93J5-kDZlt8yBrCKEhiMi_dIEixSkXnM1L8cOBXZ_ng/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
