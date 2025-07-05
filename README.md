@@ -21,6 +21,7 @@ Contact form or details
 Social media links
 
 🛠️ Technologies Used
+
 HTML5 – Structure of the web pages
 
 CSS3 – Styling and layout
